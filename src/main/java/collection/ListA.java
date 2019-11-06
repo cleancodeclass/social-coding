@@ -13,7 +13,7 @@ public class ListA {
 			return;
 		} else {
 			int newSize = size + 1;
-			
+			      
 			if ( newSize > elements.length) {
 				Object[] newElements = new Object[elements.length + _10];
 				for (int i = 0; i < size; i++) {
