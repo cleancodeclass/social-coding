@@ -20,7 +20,7 @@ public class ListA {
 					newElements[i] = elements[i];
 				}
 				elements = newElements;
-			}
+			}   
 
 			addElements(element);
 		}
