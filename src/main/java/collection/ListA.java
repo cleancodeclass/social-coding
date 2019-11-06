@@ -1,6 +1,6 @@
 package collection;
 
-public class ListA {
+public class ListA {     
 
   private static final int _100 = 100;
 	
