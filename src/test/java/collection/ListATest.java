@@ -41,7 +41,7 @@ public class ListATest {
 		// assert
 		assertTrue(list.readOnly );
 	}   
-
+     
 	@Test
 	public void whenAddElementCountIsOver10ThenArrayLengthIs20() {
 		
@@ -63,7 +63,7 @@ public class ListATest {
 		// assert
 		assertEquals(20, list.elements.length);
 		
-	}
+	}    
 	 
 	@Test
 	public void setReadOnlyReturnTrueWhenInputParameterIsTrue() {
