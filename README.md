@@ -199,7 +199,6 @@ public class List1 {
      - Suffix는 영문네임으로
      - GitHub에서 생성된 브랜치 확인하기
      - GitHub에서 브랜치간 차이점 확인하기
-1. Local 리파지토리로 Clone하기
 1. 소스 코드를 수정하고 검증 후 PUSH하기.
      - Commit Message 신경 써서 작성하기
      - Commit Message에 이슈 넘버 넣기
