@@ -2,7 +2,7 @@ package collection;
 
 public class ListA {     
 
-  private static final int _100 = 100;
+  private static final int _100 = 100;   
 	
 	public Object[] elements = new Object[10];
 	public boolean readOnly;
