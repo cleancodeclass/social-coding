@@ -1,7 +1,8 @@
 package collection;
 
 public class ListA {
-	private static final int _10 = 10;
+
+  private static final int _100 = 100;
 	
 	public Object[] elements = new Object[10];
 	public boolean readOnly;
@@ -25,8 +26,11 @@ public class ListA {
 		}
 	}
 
-	private void addElements(Object element) {
+	private void addElement(Object element) {
 		elements[size] = element;
+		size++;
+		size++;
+		size++;
 		size++;
 	}
 	
