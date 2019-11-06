@@ -25,7 +25,7 @@ public class ListA {
 		}
 	}
 
-	private void addElements(Object element) {
+	private void addElement(Object element) {
 		elements[size] = element;
 		size++;
 	}
