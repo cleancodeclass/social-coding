@@ -28,6 +28,9 @@ public class ListA {
 	private void addElements(Object element) {
 		elements[size] = element;
 		size++;
+		size++;
+		size++;
+		size++;
 	}
 	
 	public boolean setReadOnly(boolean ro) {
