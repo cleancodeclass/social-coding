@@ -193,6 +193,8 @@ public class List1 {
   - 다른 개발자가 생성한 Pull Request에 대하여 코드리뷰를 수행한다.
 
 ### 실습진행 순서
+1. 자신의 Github 계정으로 Fork 하기
+     - oooooooo
 1. 브랜치 생성하기
      - Suffix는 영문네임으로
      - GitHub에서 생성된 브랜치 확인하기
