@@ -14,10 +14,11 @@
 ### Centralized VC vs. Distributed VC
 ![gitfeature](https://user-images.githubusercontent.com/8435910/52028522-ad817800-2552-11e9-8877-c4b91ab2bfd7.GIF)
 
-### Git 브랜치 전략
-[Professional Guides: Workflow Strategies](https://www.youtube.com/watch?v=aJnFGMclhU8)
+### [GitHub란 무엇인가?](https://youtu.be/w3jLJU7DT5E)
 
-### Pull Request란 무엇인가?
+
+### [참고자료]Git 브랜치 전략
+[Professional Guides: Workflow Strategies](https://www.youtube.com/watch?v=aJnFGMclhU8)
 - [Write better code](https://github.com/features/code-review/)
 - [Code Review on GitHub](https://www.youtube.com/watch?v=HW0RPaJqm4g)
 - [About pull request reviews](https://help.github.com/en/articles/about-pull-request-reviews)
