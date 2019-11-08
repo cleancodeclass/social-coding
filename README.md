@@ -8,7 +8,7 @@
 |3|feature branch생성|Fork를 수행하고 일감을 확인하여 Branch 생성 |10분|실습|
 |4|소스변경|리팩토링 수행 후 Commit과 일감연결|20분|실습|
 |5|Pull Request 생성|PR Template 체크하기, 코드리뷰어 지정하기|10분|실습|
-|6|Code Review|Code Review 수행, Comment, 피드백 달기|10분|실습|
+|6|Code Review|Code Review 수행, Comment, 피드백 달기|20분|실습|
 |7|Merge & Release|PR Merge 수행, Release 생성|10분|실습|
 
 ### Centralized VC vs. Distributed VC
