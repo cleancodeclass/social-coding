@@ -3,15 +3,13 @@
 ### 과정안내
 |세션|내용|소요시간|비고사항|
 |---|---|---|---|
-|1|GitFlow 살펴보기|Git Branches, Pull Request|20분|이론|
-|2|오픈소스/타사사례 소개|오픈소스 개발 사례, 타사 개발 사례 보기|20분|이론|
-|3|SDS 협업개발원칙|협업개발 원칙 및 그라운드 룰, 적용 사례 |20분|이론|
-|4|feature branch생성|Jira 일감을 확인하고 일감 상세 내역에서 Branch 생성 |20분|실습|
-|5|소스변경|의미 있는 단위 Commit, Commit Message 배워보기, Commit과 일감연결|20분|실습|
-|6|Pull Request 생성|PR Template, CodeBot 확인, Status Check, PR Label, Confilict|30분|실습|
-|7|Code Review|Code Review 수행, Comment, 피드백 달기|30분|실습|
-|8|Merge 수행|PR Merge, 브랜치 삭제|20분|실습|
-|9|Release 수행|Master Branch PR Merge, Tag 생성|20분|실습|
+|1|GitFlow 살펴보기|Git Branches, Pull Request|10분|이론|
+|2|SDS 협업개발원칙|협업개발 원칙 및 그라운드 룰, 적용 사례 |10분|이론|
+|3|feature branch생성|Fork를 수행하고 일감을 확인하여 Branch 생성 |10분|실습|
+|4|소스변경|리팩토링 수행 후 Commit과 일감연결|20분|실습|
+|5|Pull Request 생성|PR Template 체크하기, 코드리뷰어 지정하기|10분|실습|
+|6|Code Review|Code Review 수행, Comment, 피드백 달기|10분|실습|
+|7|Merge & Release|PR Merge 수행, Release 생성|10분|실습|
 
 ### Centralized VC vs. Distributed VC
 ![gitfeature](https://user-images.githubusercontent.com/8435910/52028522-ad817800-2552-11e9-8877-c4b91ab2bfd7.GIF)
