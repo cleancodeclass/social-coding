@@ -16,14 +16,10 @@
 
 ### [GitHub란 무엇인가?](https://youtu.be/w3jLJU7DT5E)
 
+### Git브랜치 전략
+![gitbranch](https://user-images.githubusercontent.com/8435910/52028327-f38a0c00-2551-11e9-9458-88961fb5c024.png)
 
-### [참고자료]Git 브랜치 전략
-[Professional Guides: Workflow Strategies](https://www.youtube.com/watch?v=aJnFGMclhU8)
-- [Write better code](https://github.com/features/code-review/)
-- [Code Review on GitHub](https://www.youtube.com/watch?v=HW0RPaJqm4g)
-- [About pull request reviews](https://help.github.com/en/articles/about-pull-request-reviews)
-
-### Pull Request 활용하기(오픈소스 기준)
+### Pull Request 활용하여 개발하기
 1. 저장소를 포크하고 로컬에 클론합니다. 
 1. 수정을 위한 브랜치 생성하기.
 1. 모든 관련있는 이슈 혹은 PR에서 지원중인 문서 참조하기 (ex. “close #37”)
@@ -31,38 +27,6 @@
 1. 변경 부분을 테스트합니다! 
 1. 프로젝트 스타일에 맞게 작업하고 Pull Request를 요청합니다. 
 
-
-* 참고
-- [Creating a pull request template](http://help.github.com/en/articles/creating-a-pull-request-template-for-your-repository)
-- [Fork a repo](http://help.github.com/en/articles/fork-a-repo)  
-
-### Commit과 코드리뷰 팁
-* Commit 작성
-  - Commit은 단일 기능 단위로 구성
-  - 코드리뷰를 고려하여 200LOC 이하로 작성(10개 미만의 파일)
-  - 작성방법
-   제목 : 수정사항을 한 줄로 요약
-   내용 : 한 행을 띄고 수정 내용에 대한 이해가 쉽도록 작성
-* 코드리뷰
-  - 해결방안에 대한 구체적인 가이드
-  - 아낌없는 칭찬
-  - 수정된 코드에 대하여만 리뷰 집중
- 
-__※ Google의 경우  하나의 PR은 2명의 리뷰어를 지정하고 코드 수정 이후 4시간 이내에 리뷰를 받으며 24시간 이내에 Merge를 하고 PR당 7건의 Commit과 10개 미만의 파일, 평균 12.5개의 리뷰 Comment를 작성한다고 합니다.__
-
-### 협업개발 사례 - [Elasticsearch](https://github.com/elastic/elasticsearch)
- * Release Branch와 Feature Branch 관리
- * PR 본문과 일감 연계
- * PR 단위 상세정보를 Labeling하여 정보 제공(버전정보, 기능구분 등)
- * PR Merge시에 체크사항으로 빌드 여부 확인
-
-### 협업개발 사례 - [Jenkins](https://github.com/jenkinsci/jenkins)
- * Submitter checklist 운영
-   - Jira의 일감이 잘 설명되었는지, 변경로그가 잘 기록되었는지 확인
-   - Release Branch와 Feature Branch 관리
- * Desired Reviewer 등록(@mention 사용)
- * Build Job 연계하여 빌드 확인
- 
 ### 협업개발 적용 원칙
 * Repository는 모듈 단위로 구성하고 Member와 권한을 관리합니다.
    - Repository는 하나의 모듈로 빌드 및 배포가 가능한 단위로 생성합니다.
@@ -101,6 +65,37 @@ __※ Google의 경우  하나의 PR은 2명의 리뷰어를 지정하고 코드
     - Comment가 길어질 경우, 오프라인으로 논의하고, 오프라인 결과를 Comment로 작성합니다.
     - Unit Test가 실패한 경우에는 Pull Request를 반영하지 않습니다.
 
-  
-### Git브랜치 전략
-![gitbranch](https://user-images.githubusercontent.com/8435910/52028327-f38a0c00-2551-11e9-9458-88961fb5c024.png)
+### [참고자료]Git 브랜치 전략
+[Professional Guides: Workflow Strategies](https://www.youtube.com/watch?v=aJnFGMclhU8)
+[Write better code](https://github.com/features/code-review/)
+[Code Review on GitHub](https://www.youtube.com/watch?v=HW0RPaJqm4g)
+[About pull request reviews](https://help.github.com/en/articles/about-pull-request-reviews)
+
+
+### [참고자료]Commit과 코드리뷰 팁
+* Commit 작성
+  - Commit은 단일 기능 단위로 구성
+  - 코드리뷰를 고려하여 200LOC 이하로 작성(10개 미만의 파일)
+  - 작성방법
+   제목 : 수정사항을 한 줄로 요약
+   내용 : 한 행을 띄고 수정 내용에 대한 이해가 쉽도록 작성
+* 코드리뷰
+  - 해결방안에 대한 구체적인 가이드
+  - 아낌없는 칭찬
+  - 수정된 코드에 대하여만 리뷰 집중
+ 
+__※ Google의 경우  하나의 PR은 2명의 리뷰어를 지정하고 코드 수정 이후 4시간 이내에 리뷰를 받으며 24시간 이내에 Merge를 하고 PR당 7건의 Commit과 10개 미만의 파일, 평균 12.5개의 리뷰 Comment를 작성한다고 합니다.__
+
+### [참고자료]협업개발 사례 - [Elasticsearch](https://github.com/elastic/elasticsearch)
+ * Release Branch와 Feature Branch 관리
+ * PR 본문과 일감 연계
+ * PR 단위 상세정보를 Labeling하여 정보 제공(버전정보, 기능구분 등)
+ * PR Merge시에 체크사항으로 빌드 여부 확인
+
+### [참고자료] 협업개발 사례 - [Jenkins](https://github.com/jenkinsci/jenkins)
+ * Submitter checklist 운영
+   - Jira의 일감이 잘 설명되었는지, 변경로그가 잘 기록되었는지 확인
+   - Release Branch와 Feature Branch 관리
+ * Desired Reviewer 등록(@mention 사용)
+ * Build Job 연계하여 빌드 확인
+ 
