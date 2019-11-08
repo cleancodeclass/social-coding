@@ -3,7 +3,7 @@
 ### 과정안내
 |세션|내용|소요시간|비고사항|
 |---|---|---|---|
-|1|GitFlow 살펴보기|Git Branches, Pull Request|10분|이론|
+|1|Git 살펴보기|Git Branches, Git Flows, Pull Request|10분|이론|
 |2|SDS 협업개발원칙|협업개발 원칙 및 그라운드 룰, 적용 사례 |10분|이론|
 |3|feature branch생성|Fork를 수행하고 일감을 확인하여 Branch 생성 |10분|실습|
 |4|소스변경|리팩토링 수행 후 Commit과 일감연결|20분|실습|
