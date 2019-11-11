@@ -6,8 +6,8 @@ public class ListA {
 	public Object[] elements = new Object[10];
 	public boolean readOnly;
 	public int size = 0;
-
-	public void add(Object element) {
+ 
+	public void add(Object element) {               
 		if (readOnly) {
 			//
 		} else {
