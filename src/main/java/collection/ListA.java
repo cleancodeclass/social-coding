@@ -3,12 +3,14 @@ package collection;
 public class ListA {
 
 	private static final int STORE_SIZE_INCREMENT = 10;              
+
 	public Object[] elements = new Object[10];
 
 	public boolean readOnly;
 	public int size = 0;
  
 	public void add(Object element) {               
+
 		if (readOnly) {
 			//
 		} else {
