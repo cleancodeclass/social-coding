@@ -11,7 +11,7 @@ public class ListA {
 		} else () {
 			int newSize = size + 1;
 			
-			if ( newSize > elements.length) {
+			if (isElementStoreFull(newSize)) {
 				Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
 				for (int i = 0; i < size; i++) {
 					newElements[i] = elements[i];
@@ -31,4 +31,8 @@ public class ListA {
 		
 		return readOnly;
 	}
+}
+
+private boolean isElementStoreFull(int newSize) {
+	return  newSize > elements.length;
 }
