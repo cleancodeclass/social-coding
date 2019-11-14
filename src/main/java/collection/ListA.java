@@ -12,17 +12,21 @@ public class ListA {
 			int newSize = size + 1;
 			
 			if (isElementStoreFull(newSize)) {
-				Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
-				for (int i = 0; i < size; i++) {
-					newElements[i] = elements[i];
-				}
-
-				elements = newElements;
+				increaseElementStore();
 			}
 
 			elements[size] = element;
 			size++;
 		}
+	}
+	
+	public void increaseElementStore(Object element) {
+		Object[] newElements = new Object[elements.length + STORE_SIZE_INCREMENT];
+		for (int i = 0; i < size; i++) {
+			newElements[i] = elements[i];
+		}
+
+		elements = newElements;
 	}
 	
 	public boolean setReadOnly(boolean ro) {
