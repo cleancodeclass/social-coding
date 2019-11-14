@@ -6,7 +6,7 @@ public class ListA {
 	public int size = 0;
 
 	public void add(Object element) {
-		if (!readOnly) {
+		if (readOnly) {
 			int newSize = size + 1;
 			
 			if ( newSize > elements.length) {
