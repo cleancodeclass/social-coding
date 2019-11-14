@@ -1,3 +1,4 @@
+
 ## 초급개발자를위한 GitHub기반 협업개발방식워크샵
     
 ### 과정안내
@@ -102,3 +103,7 @@ __※ Google의 경우  하나의 PR은 2명의 리뷰어를 지정하고 코드
  * Desired Reviewer 등록(@mention 사용)
  * Build Job 연계하여 빌드 확인
  
+### 과정 설문
+
+https://docs.google.com/forms/d/e/1FAIpQLSdZnQNhZRPMvqzrP7LSYj1ljTwRsvVj4cvc7ATjplm2rf4wBg/viewform?usp=sf_link
+
