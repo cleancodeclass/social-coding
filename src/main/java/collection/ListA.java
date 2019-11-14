@@ -7,7 +7,8 @@ public class ListA {
 	private static final int STORE_SIZE_INCREMENT = 10;
 
 	public void add(Object element) {
-		if (!readOnly) {
+		if (readOnly) {
+		} else () {
 			int newSize = size + 1;
 			
 			if ( newSize > elements.length) {
